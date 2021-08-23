@@ -1,0 +1,30 @@
+@charset "utf-8";
+/**
+Theme Name: Windmill Blog
+Theme URI: https://github.com/windmill-blog
+Author: y2k999
+Author URI: https://github.com/y2k999
+Description: This theme is child theme of Windmill WordPress theme. This theme is mainly focused on clean design & beautiful typography which to make sure your content is properly served to the reader.
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, translation-ready, block-patterns
+Template: windmill
+Requires at least: 5.3
+Tested up to: 5.7.1
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+*/
+
+/**
+[NOTE]
+This theme is the child theme of Windmill WordPress theme.
+https://github.com/y2k999/windmill
+
+This theme requires the Beans Extension plugin.
+https://github.com/y2k999/beans-extension
+
+It is recommended to configure the plugin in the "Uikit Version" section of the first tab ("Preview" panel).
+1. For the "Range of Uikit2 components to use" setting, select "Load only normalize.css" option.
+2. For the "Use Uikit3 via CDN" setting, check the checkbox.
+3. Submit the save button.
+*/
