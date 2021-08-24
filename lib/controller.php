@@ -197,7 +197,7 @@ ______________________________
 		 * 	https://www.getbeans.io/code-reference/functions/beans_output_e/
 		 * 	https://www.getbeans.io/code-reference/functions/beans_close_markup_e/
 		*/
-		beans_open_markup_e("_item[windmill-blog][elapsed]",'li',array('class' => 'uk-width-auto uk-margin-small-top elapsed'));
+		beans_open_markup_e("_item[windmill-blog][elapsed]",'li',array('class' => 'uk-width-auto uk-padding-small uk-margin-small-right elapsed'));
 
 			$time_string = '<span class="elapsed-date">%1$s</span>';
 			$time_string = sprintf($time_string,
@@ -293,7 +293,7 @@ ______________________________
 		 * 	https://www.getbeans.io/code-reference/functions/beans_output_e/
 		 * 	https://www.getbeans.io/code-reference/functions/beans_close_markup_e/
 		*/
-		beans_open_markup_e("_item[windmill-blog][estimated]",'li',array('class' => 'uk-width-auto uk-margin-small-top estimated'));
+		beans_open_markup_e("_item[windmill-blog][estimated]",'li',array('class' => 'uk-width-auto uk-padding-small uk-margin-small-right estimated'));
 			$time_string = '<span class="estimated-time">%1$s</span>';
 			$time_string = sprintf($time_string,
 				esc_html($time['min']) . esc_html__('minute','windmill') . esc_html($time['sec']) . esc_html__('second','windmill'),
